@@ -1,6 +1,6 @@
 <html>
-<body bg color=aqua style=impact>
-<h1><font color='silver'> Welcome to My First CICD Project <font></h1>
+<body bg color="Aqua" style="impact">
+<h1 bgcolor="yellow"> Welcome to My First CICD Project <font></h1>
 
 <div>
 <button bg color="red"><a href="https://www.marolix.com/">Click Here To See Marolix Official Website </a></button>
@@ -9,7 +9,7 @@
 <h2> Iam the employee of marolix technology solution </h2>
 <h2> we both are friends (raju,bala) </h2>
 <h2> We are done a New Project By using GIT,MAVEN,SONARQUBE,NEXUS,TOMCAT,and WEBHOOK </h2>
-<marquee bg color=green> Happy Independence Day to All My Team </marquee>
+<marquee bg color="green" size="4"> Happy Independence Day to All My Team </marquee>
 
 </body>
 </html>
