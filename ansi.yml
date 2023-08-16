@@ -1,0 +1,8 @@
+---
+- hosts: all
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks:
+    - name: installing tree
+      action: yum name=tree state=present
