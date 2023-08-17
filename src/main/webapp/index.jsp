@@ -8,7 +8,7 @@
   <h2> MY NAME IS BALA & raju </h2>
 <h2> Iam the employee of marolix technology solution </h2>
 <h2> we both are friends (raju,bala) </h2>
-<h2> We are done a New Project By using GIT,MAVEN,SONARQUBE,NEXUS,TOMCAT,and WEBHOOK </h2>
+<h2> We are done a New Project By using GIT,MAVEN,SONARQUBE,NEXUS,ansible,docker build,image push,TOMCAT,and WEBHOOK </h2>
 <marquee font size="16"><center> Happy Independence Day to All My Team </center></marquee>
 
 </body>
