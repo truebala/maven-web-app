@@ -1,9 +1,10 @@
 ---
-hosts: webservers
-become: yes
-connection: yes
-tasks:
-  - name: installing git on server
-    yum:
-    name: git
-    state: present
+- name: Install Git on Amazon Linux
+  hosts: webservers
+  become: yes  # This indicates that we want to escalate privileges (sudo) to install the package
+
+  tasks:
+    - name: Install Git
+      yum:
+        name: git
+        state: present
