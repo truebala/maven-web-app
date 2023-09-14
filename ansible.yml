@@ -1,0 +1,9 @@
+---
+hosts: webservers
+become: yes
+connection: yes
+tasks:
+  - name: installing git on server
+    yum:
+    name: git
+    state: present
