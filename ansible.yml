@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: webservers
   tasks: 
     - name: creating a container
       shell: docker run -itd --name cont2 -p 8083:80 deadlybala123/bala
