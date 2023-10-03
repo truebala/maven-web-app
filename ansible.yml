@@ -1,9 +1,5 @@
 ---
- - hosts: webservers
-   become: yes  # This indicates that we want to escalate privileges (sudo) to install the package
-
-   tasks:
-     - name: Install Git
-       yum:
-         name: git
-         state: present
+- hosts: all
+  tasks: 
+    - name: creating a container
+      shell: docker run -itd --name cont2 -p 8083:80 deadlybala123/bala
