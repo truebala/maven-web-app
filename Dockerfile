@@ -1,7 +1,7 @@
 # Use a base image with a web server (e.g., nginx)
 FROM ubuntu:latest
-RUN apt update -y
-RUN apt install httpd -y && systemctl start httpd
+RUN sudo apt update -y
+RUN sudo apt install httpd -y && sudo systemctl start httpd
 
 # Copy the index.html file into the default web server directory
 COPY index.html /var/www/html
